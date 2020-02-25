@@ -1,0 +1,6 @@
+-   id: google-java-format
+    name: Google java code style formatter
+    description: Format java codes following Google Java Style Guide.
+    language: script
+    files: \.java$
+    entry: ./hooks/format_java.sh
